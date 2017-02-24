@@ -1,0 +1,7 @@
+{
+  "service" : "Gmail",
+  "auth" : {
+    "user" : "rmi.test.app@gmail.com",
+    "pass" : "RMI1234567890"
+  }
+}

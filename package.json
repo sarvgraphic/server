@@ -1,0 +1,55 @@
+{
+  "name": "shutterStock-Server",
+  "private": "true",
+  "version": "0.0.0",
+  "description": "Shutter Stock application is a project based on node.js and sails.js framework. project serve an API through socket by socket.io library.",
+  "keywords": [],
+  "dependencies": {
+    "async": "^1.5.0",
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.14.2",
+    "bower": "^1.6.5",
+    "connect-redis": "^1.4.5",
+    "ejs": "~0.8.4",
+    "exceljs": "^0.2.13",
+    "html-to-text": "*",
+    "include-all": "~0.1.3",
+    "jsonfile": "*",
+    "lodash": "^4.11.1",
+    "machinepack-fs": "*",
+    "mkdirp": "0.5.1",
+    "moment": "^2.17.0",
+    "mongodb": "^2.1.3",
+    "mongoose": "^4.3.4",
+    "nodemailer": "*",
+    "passport": "^0.3.2",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "rc": "~0.5.0",
+    "sails": "~0.11.0",
+    "sails-disk": "~0.10.0",
+    "sails-mongo": "^0.11.5",
+    "sails-mysql": "^0.11.0",
+    "sails-stringfile": "^0.3.2",
+    "skipper": "^0.5.9",
+    "skipper-disk": "^0.5.4",
+    "validator": "^4.2.1"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "contributors": [
+    {
+      "name": "Ali Pour Zahmatkesh",
+      "email": "info@ali-pourzahmatkesh.com",
+      "url": "http://www.ali-pourzahmatkesh.com"
+    }
+  ],
+  "license": "Shutter Stock",
+  "devDependencies": {
+    "eslint-plugin-react": "^4.2.1",
+    "sails-hook-autoreload": "^0.13.1"
+  }
+}
